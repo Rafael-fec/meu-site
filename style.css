@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7c5e99;
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+}
+nav {
+  text-align: right;
+}
+
+a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Fira code";
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+a:before {
+  content: "";
+  display: inline-flex;
+  background-color: #f25a70;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+#button {
+  display: inline-flex;
+  background-color: #f25a70;
+  padding: 18px 20px 18px;
+  box-shadow: 5px 5px 0 black;
+  margin-right: 0;
+}
